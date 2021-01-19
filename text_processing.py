@@ -61,7 +61,7 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
-    strings = ['a', 'e', 'i', 'o', 'u']
+    strings = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     no_vowel_string = input_string
     for s in strings:
         no_vowel_string = no_vowel_string.replace(s, "")
